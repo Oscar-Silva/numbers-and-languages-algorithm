@@ -1,0 +1,16 @@
+{
+  "name": "vs-techtest1",
+  "version": "1.0.0",
+  "description": "Visual Nuts techinical test",
+  "main": "index.js",
+  "scripts": {
+    "print-numbers": "node ./src/index.js print-numbers",
+    "languages": "node ./src/index.js languages",
+    "test": "jest --coverage"
+  },
+  "author": "Oscar Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
